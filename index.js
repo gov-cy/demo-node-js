@@ -5,7 +5,7 @@ const server = http.createServer((request, response) => {
     response.end("Hello dsf world!");
 });
 
-const port = process.env.PORT || 8888;
+const port = process.env.PORT || 8080;
 server.listen(port);
 
 console.log("Server running at http://localhost:%d", port);
